@@ -7,6 +7,6 @@ public class CashbackHackService {
         return boundary - amount % boundary;
 
         // 1000 - (900/1000)=   1000-900 = 100
-        // 1000 - ()
+        // 1000 - (1000/1000)= 1000-0 = 1000  // ожидаем 0
     }
 }
